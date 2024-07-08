@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.font-forty-eight{
+    font-size: 48px;
+    text-align: center;
+}
+
+body{
+font-family: "Merriweather", serif;
+}
+.banner-container{
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: url("/images/Banner\ Image.png");
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+.banner-greetings{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.banner-description{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+}
+.banner-box{
+    /* Group 99 */
+position: absolute;
+width: 632px;
+height: 246px;
+margin: 200px 350px;
+}
+.sale{
+    width: 702px;
+    height: 606px;
+    margin: 400px auto;
+    margin-top: 90px;
+}
+.sale h1, p, h3{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sale p{
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+margin-top: 30px;
+margin-bottom: 16px;
+}
+.sale h3{
+color: rgb(7, 2, 17);
+font-size: 48px;
+line-height: 58px;
+margin-bottom: 58px;
+
+}
+.section-3{
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: url("/images/Vectorrr.png");
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+.section-3 h1{
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-right: 100px;
+}
+.section-3 p{
+    color: rgba(255, 255, 255, 0.8);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-3 h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
