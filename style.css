@@ -17,7 +17,7 @@ font-family: "Merriweather", serif;
     max-width: 1320px;
     height: 600px;
     margin: 50px auto;
-    background-image: url("/images/Banner\ Image.png");
+    background-image: url("/images/Banner-Image.png");
     border-radius: 16px;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +56,7 @@ margin: 200px 350px;
     height: 606px;
     margin: 400px auto;
     margin-top: 90px;
+    margin-bottom: 230px;
 }
 .sale h1, p, h3{
     color: rgb(255, 0, 0);
@@ -83,16 +84,17 @@ margin-bottom: 58px;
 .section-3{
     max-width: 1320px;
     height: 600px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-image: url("/images/Vectorrr.png");
     border-radius: 16px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.7);
     background-blend-mode: overlay;
+    display: flex;;
 }
-.section-3 h1{
+.text h1{
 color: rgb(255, 255, 255);
 font-size: 64px;
 font-weight: 900;
@@ -101,21 +103,187 @@ letter-spacing: 11%;
 text-align: left;
 margin-right: 100px;
 }
-.section-3 p{
-    color: rgba(255, 255, 255, 0.8);
+.text p{
+color: rgba(255, 255, 255, 0.8);
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
 }
-.section-3 h3{
-    color: rgb(255, 255, 255);
+.text h3{
+color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
-text-align: center;
+text-align: left;
 text-transform: uppercase;
+margin-left: 20px;
+margin-top: 48px;
+
+}
+.text{
+    width: 50%;
+    /* text-align: center;
+    justify-content: center; */
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.image-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-box img{
+    width: 350px;
+    height: 464px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.section-4{
+    width: 1320px;
+height: 482px;
+
+margin: 100px auto;
+border-radius: 16px;
+text-align: center;
+padding: 60px 38px 20px;
+background-color: border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);;
+
+}
+.different-color{
+    color: rgb(255, 0, 0);
+}
+.section-4 h3{
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: rgb(7, 2, 17);
+margin-bottom: 30px;
+
+}
+.btn-primary{
+    font-weight: 700;  
+font-size: 20px;
+align-items: center;  
+border-radius: 8px;
+color: white;
+border: none;
+padding: 10px;
+background-color: rgb(255, 0, 0);
+}
+.holiday-section-container{
+    width: 1320px;
+height: 986.07px;
+border: 2px solid red;
+margin-top: 100px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+
+}
+.holiday-text-container{
+width: 1068px;
+height: 260px;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+}
+.holiday-text-container h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+}
+.font-small{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+background-color: rgb(255, 0, 0);
+position: absolute;
+top: 77%;
+
+}
+.gift-box{
+    
+width: 674.82px;
+height: 577.96px;
+position: relative;
+z-index: 1;
+display: flex;
+
+}
+.girl-container{
+    position: absolute;
+    bottom: 30%;
+    left: 65%;
+}
+.grid{
+    width: 1320px;
+height: 1163px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.grid h3{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.grid h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+.grid p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 45px;
+}
+.image-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 12px;
+    width: 424px;
+    height: 450px;
 }
